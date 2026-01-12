@@ -1,0 +1,141 @@
+(footprint "C_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor handsolder")
+	(property "Reference" "REF**"
+		(at 0 -2.2225 0)
+		(layer "F.SilkS")
+		(uuid "ddefc0da-d311-46a7-a4f7-bff0d6d01d85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_1206"
+		(at 0 2.2225 0)
+		(layer "F.Fab")
+		(uuid "9c063b05-0467-4bb9-bc2b-1b9484455710")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a6c3822-eff9-492f-ba43-5dad30535ffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c6e3dba-a0c4-4697-88c5-e6bd917e6911")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5875 -1.27)
+		(end -1.5875 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1a0bd59-e0bc-4314-8c65-afb4d68e8ca1")
+	)
+	(fp_line
+		(start -1.5875 -1.27)
+		(end 1.5875 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "116b7425-00ad-4fd1-824a-26dca70bbeeb")
+	)
+	(fp_line
+		(start -1.5875 1.016)
+		(end -1.5875 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfc9d7d3-20cb-4146-bcb7-b5ce6e817ae1")
+	)
+	(fp_line
+		(start -1.5875 1.27)
+		(end 1.5875 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd0099ea-a4ab-42b4-bca3-e84e16f8dadc")
+	)
+	(fp_line
+		(start 1.5875 -1.27)
+		(end 1.5875 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04bc0f01-7dcb-49b2-9bf1-bda6498fca33")
+	)
+	(fp_line
+		(start 1.5875 1.016)
+		(end 1.5875 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4963de50-6504-45a8-ada7-6698e9207147")
+	)
+	(pad "1" smd roundrect
+		(at -1.5875 0)
+		(size 1.524 1.651)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.175)
+		(uuid "5c4398d0-13a3-462e-baba-1ed4e97a1d3b")
+	)
+	(pad "2" smd roundrect
+		(at 1.5875 0)
+		(size 1.524 1.651)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.175)
+		(uuid "8facf668-587a-4c6c-ba4d-1d3ae0ac6597")
+	)
+	(embedded_fonts no)
+	(model "D:/Program Files/KiCad/9.0/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

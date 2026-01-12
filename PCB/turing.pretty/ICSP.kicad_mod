@@ -1,0 +1,164 @@
+(footprint "ICSP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.1275 0)
+		(layer "F.SilkS")
+		(uuid "055880f8-72b0-40dd-ae90-12d6e618b02b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ICSP"
+		(at 0 4.1275 0)
+		(layer "F.Fab")
+		(uuid "be3113be-4586-4b6c-acb4-01d4aa4a1aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ICSP"
+		(at 0 6.0325 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae679f23-5224-4c01-b942-410bdc23aa0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efe1d682-fdbb-431a-be1b-a0076e25c9e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fc74686-ded5-40c6-b46f-d21390463e41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 -2.8575)
+		(end 7.62 -2.8575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f5bad5b-6bef-47c9-a15d-b1ecd3374752")
+	)
+	(fp_line
+		(start -7.62 2.8575)
+		(end -7.62 -2.8575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee784c06-6f9e-4e8a-a6b8-7aa53a2f4f8f")
+	)
+	(fp_line
+		(start 7.62 -2.8575)
+		(end 7.62 2.8575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b5e2df6-46f3-41b8-99dd-7c34ee3fb945")
+	)
+	(fp_line
+		(start 7.62 2.8575)
+		(end -7.62 2.8575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "465d41bc-4212-476c-a646-d32f667e1086")
+	)
+	(fp_poly
+		(pts
+			(xy -8.255 0) (xy -9.525 -1.27) (xy -9.525 1.27)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "877f56c2-f37f-44ff-9325-568200485657")
+	)
+	(pad "1" smd rect
+		(at -6.35 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "62079495-3ba3-4ad5-8d74-fc8ea12efe0b")
+	)
+	(pad "2" smd rect
+		(at -3.81 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "655d8a36-e622-400b-af59-c7e1dd406687")
+	)
+	(pad "3" smd rect
+		(at -1.27 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "cbfdb535-9673-4d8f-9dd1-ce14fabbb537")
+	)
+	(pad "4" smd rect
+		(at 1.27 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1d8f68a3-d72b-49ef-afd5-39ef97d40929")
+	)
+	(pad "5" smd rect
+		(at 3.81 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e246a24d-8c59-428f-8270-3990ffe48159")
+	)
+	(pad "6" smd rect
+		(at 6.35 0)
+		(size 1.651 5.08)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1bff01e1-379d-4f4a-b0b5-6874df95a471")
+	)
+	(model "D:/Program Files/KiCad/8.0/share/kicad/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

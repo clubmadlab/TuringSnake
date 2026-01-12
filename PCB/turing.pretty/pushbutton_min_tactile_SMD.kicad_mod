@@ -1,0 +1,113 @@
+(footprint "pushbutton_min_tactile_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.3 6.985 0)
+		(layer "F.SilkS")
+		(uuid "4f03d340-b67c-4730-bf7b-e6f6095b91c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "pushbutton_min_tactile"
+		(at 4 -2.9 0)
+		(layer "F.Fab")
+		(uuid "a7579ec7-c714-44e7-a24b-0ec69668d80c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d945ab5-e526-4dc8-9008-6e35ef16fd34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf6448de-a87e-4695-bf7a-44ba58c40857")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 1.1 -0.75)
+		(end 7.1 5.25)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "546f4273-6f4b-4dd7-90f6-6b2da89e8641")
+	)
+	(fp_circle
+		(center 4.1 2.25)
+		(end 5.878 2.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5532293c-d430-4003-92f8-924c1f8f8620")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "02bb037a-4cff-42ea-bd2d-bd0b1e0122c4")
+	)
+	(pad "2" smd rect
+		(at 8.2 0)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3cc5c0ef-e366-457c-957d-a2d94dcca512")
+	)
+	(pad "3" smd rect
+		(at 8.2 4.5)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ef168ed8-6c2d-46b8-8fbe-f140b7ee0907")
+	)
+	(pad "4" smd rect
+		(at 0 4.5)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b4952e15-703a-467c-88b0-8201b9a3bfbf")
+	)
+	(embedded_fonts no)
+	(model "D:/Program Files/KiCad/9.0/share/kicad/3dmodels/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx38.step"
+		(offset
+			(xyz 4.064 -2.286 0)
+		)
+		(scale
+			(xyz 1.4 1.4 1.4)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
