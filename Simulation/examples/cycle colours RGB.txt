@@ -1,0 +1,2 @@
+; cycle through red, green and blue
+#1 << #2 ?R^r?G^g ^b #rG?!G^1>^2 #gB?!B^1>^2 #bR?!R^1>^2

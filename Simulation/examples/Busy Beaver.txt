@@ -1,0 +1,3 @@
+; 3-State Busy Beaver - maximum number of symbols = 6
+>13 $s=0 #0 ?!$s-0^state0 ?!$s-1^state1 ?!$s-2^state2
+#state0 ?R%0 R < $s=1 ^0 #state1 ?K$s=2 < ^0 #state2 ?R$s=0 R > ^0

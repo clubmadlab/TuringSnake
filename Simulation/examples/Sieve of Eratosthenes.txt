@@ -1,0 +1,2 @@
+; Sieve of Eratosthenes prime number generator (LEDs left on are prime - 2, 3, 5, 7, 11, 13, 17, 19, 23)
+K #1>R?R^1 $step=2 #2 << >$step-1 $n=27 #3 >$step K $n-- ?$n^3 $step++ ?$step-14^2 %0

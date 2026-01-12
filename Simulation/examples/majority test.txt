@@ -1,0 +1,4 @@
+; majority test - majority colour prevails
+R>R>G>R>R>G>G>G>G>R>G>G>G>R>R>R>R>R>G>R>G>G>R>G>R>R>G<<	; initial tape
+#scan_r ?K^win_g ?R^1 > ^scan_r #1 B >> ^scan_g #scan_g ?K^win_r ?G^2 < ^scan_g #2 B << ^scan_r
+#win_r > R ?K%0 ^win_r #win_g < G ?K%0 ^win_g

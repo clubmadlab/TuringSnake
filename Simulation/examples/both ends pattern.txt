@@ -1,0 +1,2 @@
+; simple pattern - colours added from each end
+#1 ?!R^2 > ^1 #2 R % >> #3 ?!G^4 < ^3 #4 G % << ^1

@@ -1,0 +1,5 @@
+; Euclid's algorithm to compute the greatest common divisor of two numbers (red and green)
+R>R>R>R>R>R>R>R>R>R>R>R>R>R>R>B>B>B>G>G>G>G>G>G>G>G>G	       ; initial state - GCD of 15 & 9 = 3
+#0 << $r=0 $g=0 #1 ?R$r++ ?G$g++ > ?!K^1 $d=$r-$g ?!$d%0 ?>$d^delete_r ^delete_g
+#delete_g << #2 ?K^0 ?G$r-- ?GB > ?$r^2 ^0
+#delete_r >> #3 ?K^0 ?R$g-- ?RB < ?$g^3 ^0

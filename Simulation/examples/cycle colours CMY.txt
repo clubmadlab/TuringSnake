@@ -1,0 +1,2 @@
+; cycle through cyan, magenta and yellow
+$s=1 #1 ?!$s-1C ?!$s-2M ?!$s-3Y $s++ ?!$s-4 $s=1 ?K^2 >^1 #2<< % ^1

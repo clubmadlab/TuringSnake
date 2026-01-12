@@ -1,0 +1,5 @@
+; palindrome test - returns all green if tape is palindrome, or all red if not
+C>C>M>C>M>M>M>C>C>M>C>C>M>Y>M>C>C>M>C>C>M>M>M>C>M>C>C	; initial tape
+#0 << #1 ?C^search_c ?M^search_m ?Y^yes > ^1
+#search_c K >> #2 ?M^no ?C^3 < ^2 #3 K ^0 #search_m K >> #4 ?C^no ?M^5 < ^4 #5 K ^0
+#yes << #6 G ?K%0 > ^6 #no << #7 R ?K%0 > ^7
