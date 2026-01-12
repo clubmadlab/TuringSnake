@@ -1,0 +1,23 @@
+Drill report for turing.kicad_pcb
+Created on 2025-12-28T17:48:41+0000
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+
+
+Drill file 'turing-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (12 holes)
+    T2  0.850mm  0.0335"  (4 holes)  (with 4 slots)
+
+    Total plated holes count 16
+
+
+Drill file 'turing-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
